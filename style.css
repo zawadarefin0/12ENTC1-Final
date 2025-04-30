@@ -67,3 +67,24 @@ body {
 /* navbar end */
 
 /* body start */
+.main-container {
+    width: 60%;
+    background-color: gray;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.left {
+    background-color: rgb(63, 62, 62);
+    margin: 10px;
+    width: 30%;
+
+}
+
+.right {
+    background-color: rgb(31, 28, 28);
+    margin: 10px;
+    width: 70%;
+    float: right;
+}
