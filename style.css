@@ -1,0 +1,48 @@
+:root {
+    --main-theme-color: #ff8c0f;
+    --background-color: #f3f3f3;
+  }
+
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+.navbar-container {
+    color: white;
+    background-color: var(--main-theme-color);
+
+}
+
+.navbar {
+    background-color: var(--main-theme-color);
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+.navbar img {
+    margin-left: 50px;
+}
+
+.student-profile-container {
+    background-color: var(--main-theme-color);
+    width: 100%;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    background-color: #590808;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.circle p {
+    display: flex;
+    align-items: center;
+    al
+}
