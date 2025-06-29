@@ -103,8 +103,7 @@ body {
     color: black
 }
 
-.right {
-    /* background-color: rgb(31, 28, 28); */
+/* .right {
     margin: 5px;
     width: 70%;
     float: right;
@@ -113,7 +112,25 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
+} */
 
+.right {
+  margin: 5px;
+  width: 70%;
+  height: 80vh; /* You can also try using 'vh' for height responsiveness */
+  float: right;
+  border: 1px solid rgba(0, 0, 0, 0.363);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+.tableauViz {
+  width: 100% !important;  /* Make sure it spans the entire container width */
+  height: 100% !important; /* Make sure it spans the entire container height */
+  position: absolute;
 }
 
 @keyframes translate {
