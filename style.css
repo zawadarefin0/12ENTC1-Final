@@ -79,6 +79,7 @@ body {
     margin: 5px;
     width: 30%;
     height: 80vh;
+    max-width: 30vw;
 
 }
 
@@ -89,6 +90,8 @@ body {
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.363);
 }
+
+
 
 .filters .info-box {
     height: auto;
@@ -101,8 +104,14 @@ body {
     padding-left: 10px;
     margin-left: 20px;
 }
+
 .filters .info-box p {
     margin-left: 20px;
+    margin-right: 30px;
+}
+
+.filters .info-box ul {
+    margin-left: 15px;
     margin-right: 30px;
 }
 
