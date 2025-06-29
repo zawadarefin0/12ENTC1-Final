@@ -90,6 +90,22 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.363);
 }
 
+.filters .info-box {
+    height: auto;
+    display: block;
+}
+
+.filters .info-box h1 {
+    border-bottom: 2px black solid;
+    width: 85%;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.filters .info-box p {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
 .filters img {
     margin: 5px;
 }
@@ -117,7 +133,7 @@ body {
 .right {
   margin: 5px;
   width: 70%;
-  height: 80vh; /* You can also try using 'vh' for height responsiveness */
+  height: 80vh;
   float: right;
   border: 1px solid rgba(0, 0, 0, 0.363);
   display: flex;
@@ -125,6 +141,12 @@ body {
   align-items: center;
   background-color: white;
   position: relative;
+  overflow-y: auto;
+}
+
+.home-info {
+    text-align: center;
+    margin: 0;
 }
 
 .tableauViz {
@@ -150,3 +172,4 @@ body {
     animation-fill-mode: forwards;
     
 }
+
