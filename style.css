@@ -94,10 +94,10 @@ body {
 
 .filters .info-box {
     height: auto;
-    max-height: 655px;
     display: block;
     margin-bottom: 15px;
 }
+
 
 .filters .info-box h1 {
     border-bottom: 2px black solid;
