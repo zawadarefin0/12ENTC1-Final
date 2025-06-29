@@ -80,7 +80,6 @@ body {
     width: 30%;
     height: 80vh;
     max-width: 30vw;
-
 }
 
 .filters div {
@@ -95,7 +94,9 @@ body {
 
 .filters .info-box {
     height: auto;
+    max-height: 655px;
     display: block;
+    margin-bottom: 15px;
 }
 
 .filters .info-box h1 {
@@ -142,7 +143,7 @@ body {
 .right {
   margin: 5px;
   width: 70%;
-  height: 80vh;
+  height: 110vh;
   float: right;
   border: 1px solid rgba(0, 0, 0, 0.363);
   display: flex;
@@ -182,3 +183,8 @@ body {
     
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
