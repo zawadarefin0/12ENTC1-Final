@@ -94,8 +94,10 @@ body {
 
 .filters .info-box {
     height: auto;
+    height: 570px;
     display: block;
     margin-bottom: 15px;
+    overflow: auto;
 }
 
 
