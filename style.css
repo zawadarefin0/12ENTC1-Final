@@ -145,7 +145,7 @@ body {
 .right {
   margin: 5px;
   width: 70%;
-  height: 110vh;
+  height: 100vh;
   float: right;
   border: 1px solid rgba(0, 0, 0, 0.363);
   display: flex;
