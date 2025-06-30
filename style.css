@@ -268,15 +268,16 @@ body {
     }
 
     .right {
-        width: 90%;
+        width: 100%;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        
     }
 
     .main-container {
         display: grid;
+        align-content: center;
         margin-left: 0;
-        margin-right: auto;
         width: 100%;
     }
 
