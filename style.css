@@ -39,6 +39,10 @@ body {
     height: 100%;
 }
 
+.logo-alt {
+    display: none;
+}
+
 .student-profile-container {
     background-color: var(--main-theme-color);
     display: flex;
@@ -185,8 +189,44 @@ body {
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1380px) {
   body {
     background-color: lightblue;
   }
+
+  .main-container {
+    width: 95%;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+
+  .student-profile-container {
+    justify-content: flex-end;
+  }
+
 }
+
+
+@media only screen and (max-width: 850px) {
+
+    body {
+        background-color: bisque;
+    }
+
+    .student-profile-container {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-alt {
+        display: flex;
+    }
+}
+
+
+
