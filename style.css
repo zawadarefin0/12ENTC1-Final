@@ -195,9 +195,6 @@ body {
 }
 
 @media only screen and (max-width: 1380px) {
-  body {
-    background-color: lightblue;
-  }
 
   .main-container {
     width: 95%;
@@ -216,11 +213,6 @@ body {
 
 
 @media (max-width: 850px) {
-
-
-    body {
-        background-color: bisque;
-    }
 
     .student-profile-container {
         display: none;
